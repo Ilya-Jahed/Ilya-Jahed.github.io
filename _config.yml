@@ -2,11 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-
-
 title: Ilya Jahed # the website title (if blank, full name will be used instead)
 first_name: Ilya
-middle_name: # (leave blank — not used)
+middle_name: # not used
 last_name: Jahed
 contact_note: >
   Feel free to reach out via email or LinkedIn — happy to connect about research, collaborations, or grad school.
