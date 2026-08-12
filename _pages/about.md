@@ -31,8 +31,7 @@ I am a 7th-semester Computer Engineering undergraduate at **Iran University of S
 
 Currently, I am a Research Assistant at the **Scalable Systems Laboratory** working under the supervision of **Dr. Entezari**. My research centers on **Graph Neural Networks (GNNs)** with a primary focus on **anomaly detection in edge and distributed computing systems**.
 
-In addition to research, I serve as a **Teaching Assistant (TA)** for the *Data Structures* course at IUST.
-
+I also have experience serving as a **Teaching Assistant (TA)** for the *Data Structures* course under the supervision of **Dr. Hossein Rahmani** at IUST.
 ---
 
 ### Research Interests
