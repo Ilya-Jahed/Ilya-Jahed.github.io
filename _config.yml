@@ -29,10 +29,9 @@ back_to_top: true # set to false to disable the back to top button
 # Social profiles
 # -----------------------------------------------------------------------------
 
-email: your.email@example.com     
-github_username: ilya-jahed       
-linkedin_username: ilya-jahed    
-# rss_icon: true                   
+email: Ilya.j.h.d@gmail.com
+github_username: ilya-jahed
+linkedin_username: ilya-jahed               
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -367,6 +366,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 scholar:
   last_name: [Jahed]
   first_name: [Ilya, I.]
+
+  style: apa
+  locale: en
 
   style: apa
   locale: en
