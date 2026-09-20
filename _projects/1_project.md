@@ -2,7 +2,7 @@
 layout: page
 title: "NEGSC: Graph Anomaly Detection for NIDS — Reimplementation and Ongoing Work"
 description: Modular reimplementation of the NEGSC (2024) paper on signed-graph convolutions for anomaly detection, serving as the foundation for ongoing private extension work on self-supervised NIDS.
-img: assets/img/12.jpg
+img: assets/img/NEGSC.jpg
 importance: 1
 category: research
 related_publications: false

@@ -2,7 +2,7 @@
 layout: page
 title: "SL-GAD: Self-supervised Graph Anomaly Detection (Reimplementation)"
 description: Reimplementation of SL-GAD â€” a self-supervised, contrastive-learning-based method for detecting anomalous nodes in attributed graphs.
-img: assets/img/3.jpg
+img: assets/img/SL-GAD.jpg
 importance: 2
 category: research
 related_publications: false

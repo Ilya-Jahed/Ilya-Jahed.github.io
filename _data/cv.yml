@@ -25,8 +25,8 @@ cv:
         url: http://www.iust.ac.ir/
         area: Computer Engineering
         studyType: B.Sc.
-        start_date: 2023-09
-        end_date:  2028-01
+        start_date: "2023-09-01"
+        end_date: "2028-01-31"
         score: "18.85 / 20.00"
         highlights:
           - "GPA: 18.85 / 20.00 (current, 7th semester)"
@@ -37,7 +37,7 @@ cv:
         position: Research Assistant
         location: Tehran, Iran
         url: https://ssl.iust.ac.ir/
-        start_date: 2026-06
+        start_date: "2026-06-01"
         end_date: present
         summary: >
           Research assistantship under Prof. Reza Entezari-Maleki focused on graph
@@ -56,8 +56,8 @@ cv:
       - company: Iran University of Science and Technology (IUST)
         position: Teaching Assistant — Data Structures
         location: Tehran, Iran
-        start_date: 2025-09
-        end_date: 2026-01
+        start_date: "2025-09-01"
+        end_date: "2026-01-31"
         summary: >
           TA for the Data Structures course under Dr. Hossein Rahmani.
         highlights:
@@ -117,7 +117,7 @@ cv:
           - "Analysed the paper and reference notebooks; reconstructed the pipeline as modular Python code"
           - "Documented six paper-vs-code discrepancies (dead hyperparameters, untrained per-step edge embedder, ndata key mismatch, and others)"
           - "Public foundation for ongoing private NIDS extension research"
-        start_date: 2026-08
+        start_date: "2026-08-01"
         end_date: present
         url: https://github.com/Ilya-Jahed/negsc-fraud-detection
 
@@ -129,8 +129,8 @@ cv:
           - "Analysed the paper and restructured the implementation into modular components (data pipeline, graph builder, encoder, DGI, detectors, trainer)"
           - "Investigated preprocessing and target-encoding leakage concerns during the audit"
           - "Vectorised graph construction (NetworkX to DGL/NumPy) to eliminate OOM issues on full datasets"
-        start_date: 2026-06
-        end_date: 2026-08
+        start_date: "2026-06-01"
+        end_date: "2026-08-31"
         url: https://github.com/Ilya-Jahed/Anomal-E-Implementation
 
       - name: SL-GAD Reimplementation and Study
@@ -142,6 +142,6 @@ cv:
           - "Implemented the full training and multi-round evaluation pipeline with a CLI"
           - "Single-run AUC of 0.9167 on Cora, within the paper's reported range (not a full reproduction study)"
           - "Studied contrastive/generative ideas relevant to the broader NIDS direction; recognised the node-centric vs flow-level distinction"
-        start_date: 2026-07
-        end_date: 2026-08
+        start_date: "2026-07-01"
+        end_date: "2026-08-31"
         url: https://github.com/Ilya-Jahed/sl-gad-reimplementation

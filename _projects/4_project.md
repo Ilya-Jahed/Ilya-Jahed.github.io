@@ -2,7 +2,7 @@
 layout: page
 title: "CS224W Study Notes: Machine Learning with Graphs"
 description: Personal study notes for Stanford CS224W â€” covering GNNs, graph representation learning, knowledge graphs, and scalable graph algorithms.
-img: assets/img/9.jpg
+img: assets/img/GNN_Notes.jpg
 importance: 1
 category: notes
 related_publications: false

@@ -2,7 +2,7 @@
 layout: page
 title: "Kernel to Provenance: Systems Security Notes"
 description: Study notes tracing from OS kernel audit mechanisms to provenance graph construction and graph-based threat detection â€” covering audit systems, provenance-based NIDS, and threat hunting.
-img: assets/img/11.jpg
+img: assets/img/Provenance.jpg
 importance: 2
 category: notes
 related_publications: false

@@ -35,11 +35,25 @@ def clean(s):
     )
 
 
+def fmt_date(value):
+    value = clean(value or "")
+    if value.lower() == "present":
+        return "present"
+    # Keep source data ISO-8601, but render compact human-readable dates in PDF.
+    try:
+        from datetime import date
+        parts = value.split("-")
+        if len(parts) >= 2 and parts[0].isdigit() and parts[1].isdigit():
+            months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            return f"{months[int(parts[1]) - 1]} {parts[0]}"
+    except (ValueError, IndexError):
+        pass
+    return value
+
+
 def fmt_dates(start, end):
-    start = clean(start or "")
-    end = clean(end or "present")
-    if end.lower() == "present":
-        return f"{start} - present"
+    start = fmt_date(start)
+    end = fmt_date(end or "present")
     return f"{start} - {end}"
 
 

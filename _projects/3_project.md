@@ -2,7 +2,7 @@
 layout: page
 title: "Anomal-E: Edge-Centric Graph Anomaly Detection (Analysis and Reimplementation)"
 description: Analysis and modular reimplementation of Anomal-E, an edge-centric self-supervised GNN method for anomaly detection in network traffic.
-img: assets/img/7.jpg
+img: assets/img/Anomal-E.jpg
 importance: 3
 category: research
 related_publications: false
