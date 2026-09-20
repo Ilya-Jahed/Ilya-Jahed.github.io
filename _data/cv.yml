@@ -24,8 +24,8 @@ cv:
         url: http://www.iust.ac.ir/
         area: Computer Engineering
         studyType: B.Sc.
-        start_date: 2022
-        end_date: 2027
+        start_date: 2023-09
+        end_date: 2027-06
         score: "18.85 / 20.00"
         highlights:
           - "GPA: 18.85 / 20.00 (current)"
@@ -36,7 +36,7 @@ cv:
         position: Research Assistant
         location: Tehran, Iran
         url: https://ssl.iust.ac.ir/
-        start_date: 2024
+        start_date: 2026-06-01
         end_date: present
         summary: >
           Research assistantship focused on graph machine learning for network security.
@@ -55,8 +55,8 @@ cv:
       - company: Iran University of Science and Technology (IUST)
         position: Teaching Assistant — Data Structures
         location: Tehran, Iran
-        start_date: 2024
-        end_date: 2025
+        start_date: 2025-09-01
+        end_date: 2026-01-31
         summary: >
           TA for the Data Structures course under Dr. Hossein Rahmani.
         highlights:
@@ -106,7 +106,7 @@ cv:
           - "Analysed the paper and reconstructed its main implementation components"
           - "Audited preprocessing, graph construction, optimisation, and training behaviour"
           - "Serves as the public foundation for ongoing private NIDS research"
-        start_date: 2024
+        start_date: 2026-08-10
         end_date: present
         url: https://github.com/Ilya-Jahed/negsc-fraud-detection
 
@@ -118,8 +118,8 @@ cv:
           - "Analysed the paper and restructured the implementation into modular components"
           - "Investigated preprocessing and target-encoding issues during the audit"
           - "Used the project to develop a flow-level perspective on graph-based NIDS"
-        start_date: 2024
-        end_date: present
+        start_date: 2026-06-10
+        end_date: 2026-08
         url: https://github.com/Ilya-Jahed/Anomal-E-Implementation
 
       - name: SL-GAD Reimplementation and Study
@@ -130,8 +130,8 @@ cv:
           - "Implemented the method as a graph anomaly-detection baseline"
           - "Studied contrastive learning ideas relevant to the broader NIDS research direction"
           - "Recognised the distinction between node-centric host-based detection and flow-level NIDS"
-        start_date: 2024
-        end_date: present
+        start_date: 2026-07-10
+        end_date: 2026-08
         url: https://github.com/Ilya-Jahed/sl-gad-reimplementation
 
 

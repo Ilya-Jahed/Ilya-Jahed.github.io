@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Starting Research on Extending NegSC for NIDS"
-date: 2024-11-01 12:00:00+0330
+date: 2026-08-10 12:00:00+0330
 inline: false
 related_posts: false
 ---
