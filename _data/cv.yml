@@ -16,7 +16,7 @@ cv:
     - network: GitHub
       username: Ilya-Jahed
     - network: LinkedIn
-      username: ilya-jahed
+      username: ilyajahed
 
   sections:
     Education:
@@ -26,7 +26,7 @@ cv:
         area: Computer Engineering
         studyType: B.Sc.
         start_date: Sep 2023
-        end_date: Jun 2027
+        end_date: Jun 2028
         score: "18.85 / 20.00"
         highlights:
           - "GPA: 18.85 / 20.00 (current, 7th semester)"
