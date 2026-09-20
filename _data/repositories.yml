@@ -4,8 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - Ilya-Jahed/Gatherly
-  - Ilya-Jahed/neural-networks-from-scratch
-  - Ilya-Jahed/genetic-programming-symbolic-regression
+  - Ilya-Jahed/negsc-fraud-detection
   - Ilya-Jahed/sl-gad-reimplementation
   - Ilya-Jahed/Anomal-E-Implementation
+  - Ilya-Jahed/cs224w-study-notes
+  - Ilya-Jahed/kernel-to-provenance-notes

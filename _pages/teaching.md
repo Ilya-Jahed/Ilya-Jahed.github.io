@@ -2,14 +2,31 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: false
+description: Teaching and academic service at IUST.
+nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Teaching Assistant — Data Structures
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+**Iran University of Science and Technology (IUST)** · Academic Year 2024–2025
 
-{% include courses.liquid %}
+*Supervisor: Dr. Hossein Rahmani, School of Computer Engineering*
+
+### Role & Responsibilities
+
+- Held weekly office hours to assist students with problem sets and programming assignments
+- Graded homework, lab exercises, and exams
+- Provided guidance on algorithmic analysis, data structure selection, and C++ implementation
+
+### Course Topics
+
+The Data Structures course covers foundational computer science material:
+
+- Arrays, linked lists, stacks, and queues
+- Trees: binary search trees, AVL trees, heaps
+- Hash tables and collision resolution
+- Graphs: BFS, DFS, shortest paths, minimum spanning trees
+- Sorting algorithms and their analysis
+- Algorithm complexity and asymptotic notation (Big-O, Θ, Ω)
+

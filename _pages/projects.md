@@ -2,10 +2,12 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: >
+  My research reimplementations, implementations, and study notes —
+  spanning GNN-based anomaly detection, graph machine learning, and systems security.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, notes]
 horizontal: false
 ---
 
