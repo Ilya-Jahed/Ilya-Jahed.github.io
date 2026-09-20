@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as **Teaching Assistant** for the *Data Structures* course (under Dr. Hossein Rahmani) at IUST for the 2024–2025 academic year. 📚
+Started as **Teaching Assistant** for the *Data Structures* course (under Dr. Hossein Rahmani) at IUST for the 2024–2025 academic year. 
