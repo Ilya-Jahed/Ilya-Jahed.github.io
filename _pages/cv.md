@@ -4,9 +4,9 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: # add path to your CV PDF here once generated, e.g. /assets/pdf/cv.pdf
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: /assets/pdf/cv.pdf
+cv_format: rendercv
+description: My curriculum vitae — research training in graph machine learning for network security.
 toc:
   sidebar: left
 ---
