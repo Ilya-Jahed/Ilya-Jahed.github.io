@@ -12,7 +12,7 @@ related_publications: false
 
 **SL-GAD** (Self-supervised Learning for Graph Anomaly Detection) uses **contrastive learning** â€” learning representations by contrasting augmented views of a graph â€” to detect nodes that are anomalous with respect to their local neighborhood structure.
 
-This is a clean reimplementation with documented experiments, built for benchmarking against other methods in my research.
+This is a research-training reimplementation with documented experiments, built to understand node-centric graph anomaly detection and to extract ideas that may transfer to network intrusion detection. It is not presented as a new method or as a claim of fully reproduced published results.
 
 **GitHub:** [Ilya-Jahed/sl-gad-reimplementation](https://github.com/Ilya-Jahed/sl-gad-reimplementation)
 

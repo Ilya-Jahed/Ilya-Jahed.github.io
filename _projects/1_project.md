@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "NegSC: Graph Anomaly Detection for Fraud & NIDS"
-description: Reimplementation of the NegSC (2024) paper â€” GNN-based anomaly detection using negative sampling and signed-graph convolutions, applied to network intrusion detection and fraud detection.
+title: "NEGSC: Graph Anomaly Detection for NIDS — Reimplementation and Ongoing Work"
+description: Modular reimplementation of the NEGSC (2024) paper on signed-graph convolutions for anomaly detection, serving as the foundation for ongoing private extension work on self-supervised NIDS.
 img: assets/img/12.jpg
 importance: 1
 category: research
@@ -10,37 +10,35 @@ related_publications: false
 
 ## Overview
 
-**NegSC** is a graph neural network framework for anomaly detection that was published in 2024. It addresses a core challenge in graph-based NIDS and fraud detection: how to model *negative* (absent or suppressed) interactions between nodes alongside positive ones, using **signed-graph convolutions**.
+**NEGSC** is a graph neural network framework for anomaly detection published in 2024. It addresses how to model *negative* (absent or suppressed) interactions between nodes alongside positive ones, using **signed-graph convolutions**.
 
-This repository contains my clean, documented reimplementation of the NegSC framework, built as the foundation for my ongoing research at the [Scalable Systems Lab](https://ssl.iust.ac.ir/) at IUST.
+This repository contains a clean, modular reimplementation of the NEGSC framework, built as the foundation for ongoing research at the [Scalable Systems Lab](https://ssl.iust.ac.ir/) at IUST.
 
 **GitHub:** [Ilya-Jahed/negsc-fraud-detection](https://github.com/Ilya-Jahed/negsc-fraud-detection)
 
 ---
 
-## Why NegSC?
+## Research Journey
 
-Traditional GNN-based anomaly detectors aggregate neighbor features through positive edges only. NegSC argues that **the absence or negation of an edge carries information** â€” two nodes that *don't* interact in a normally well-connected neighborhood become a signal. The method introduces:
+My work on graph-based NIDS has progressed through three stages:
 
-- **Negative sampling** during graph construction to explicitly model non-edges
-- **Signed convolutions** that treat positive and negative edges with separate learnable parameters
-- A **dual-view representation** capturing both source-side and destination-side node behaviors
+1. **Anomal-E analysis and reimplementation** — I started by studying and modularising Anomal-E, an edge-centric self-supervised NIDS method. During this process I identified several implementation issues, including target-encoding leakage and preprocessing concerns, which informed my later work.
+
+2. **SL-GAD study** — I then reimplemented SL-GAD, a node-centric self-supervised graph anomaly detection method. While this approach is less suitable for NIDS (which typically requires edge- or flow-level analysis), it provided useful insights into contrastive learning on graphs.
+
+3. **NEGSC reimplementation and extension** — I analysed the NEGSC paper and built a modular reimplementation. Upon auditing the original approach, I identified several issues and began developing extensions. The active extension work is currently **private and incomplete**; only the modular reimplementation is public.
 
 ---
 
-## Research Context
+## Current Status
 
-This reimplementation serves as the foundation for my extension work, which targets key limitations of NegSC:
-
-- Better representation of **dynamic** graph topologies (temporal edges)
-- Improved handling of **class imbalance** in NIDS datasets
-- Adaptation to **edge and distributed computing** constraints (lightweight inference)
+The public repository contains the audited and modularised NEGSC reimplementation. The extension work — including additional ideas and architectural modifications — is under active development in a private repository. The final method, experimental protocol, and results have **not yet been finalised or claimed**.
 
 ---
 
 ## Stack
 
-- Python Â· PyTorch Â· PyTorch Geometric
+- Python · PyTorch · PyTorch Geometric
 - Datasets: benchmark NIDS / fraud graph datasets
 
 

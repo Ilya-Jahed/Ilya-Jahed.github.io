@@ -5,10 +5,11 @@ cv:
   location: Tehran, Iran
   image: ""
   summary: >
-    7th-semester CE undergraduate at IUST with a GPA of 18.85/20.
-    Researcher at the Scalable Systems Lab under Prof. Reza Entezari-Maleki,
-    focusing on GNN-based anomaly detection for network intrusion detection systems.
-    Currently developing and extending the NegSC (2024) framework.
+    Computer Engineering undergraduate at IUST with a GPA of 18.85/20.
+    Research assistant at the Scalable Systems Lab under Prof. Reza Entezari-Maleki,
+    working on graph machine learning for network intrusion and anomaly detection.
+    Current research training includes analysis, reimplementation, auditing, and
+    ongoing private extensions of self-supervised graph-based NIDS methods.
 
   social_networks:
     - network: GitHub
@@ -24,11 +25,11 @@ cv:
         area: Computer Engineering
         studyType: B.Sc.
         start_date: 2022
-        end_date: 2026
+        end_date: 2027
         score: "18.85 / 20.00"
         highlights:
-          - "GPA: 18.85 / 20.00 (Term 7 of 8)"
-          - "Focus: Graph Neural Networks and Anomaly Detection for Network Security"
+          - "GPA: 18.85 / 20.00 (current)"
+          - "Focus: graph machine learning and anomaly detection for network security"
 
     Experience:
       - company: Scalable Systems Lab, IUST
@@ -38,12 +39,18 @@ cv:
         start_date: 2024
         end_date: present
         summary: >
-          Member of Prof. Reza Entezari-Maleki's lab, focusing on GNN-based anomaly
-          detection for edge and distributed computing systems.
+          Research assistantship focused on graph machine learning for network security.
+          Started with paper analysis and a modular reimplementation of Anomal-E,
+          including investigation of preprocessing and target-encoding issues; then
+          studied and reimplemented SL-GAD as a node-centric graph anomaly-detection
+          baseline. Currently auditing and extending NEGSC: the public repository
+          contains the modular reimplementation, while the active extension work is
+          private and incomplete.
         highlights:
-          - "Extending the NegSC (2024) framework for NIDS anomaly detection"
-          - "Addressing limitations in graph-based node behavior representation for dynamic network environments"
-          - "Reimplemented SL-GAD and Anomal-E graph anomaly detection methods for benchmarking"
+          - "Analysed and modularised an Anomal-E reimplementation for self-supervised NIDS research"
+          - "Studied SL-GAD as a node-centric graph anomaly-detection baseline and extracted relevant ideas"
+          - "Audited and modularised NEGSC in a public reimplementation repository"
+          - "Currently developing additional NEGSC extensions privately; final method and results are not yet claimed"
 
       - company: Iran University of Science and Technology (IUST)
         position: Teaching Assistant — Data Structures
@@ -90,28 +97,41 @@ cv:
         keywords: "Graph Anomaly Detection, Network Security, Edge Computing, GNNs, Representation Learning"
 
     Projects:
-      - name: NegSC Fraud Detection (Reimplementation)
+      - name: NEGSC Reimplementation and Audit
         summary: >
-          Reimplementation of the NegSC (2024) graph-based anomaly detection framework.
-          Foundation for ongoing extension research targeting NIDS.
+          Modular public reimplementation and code audit of NEGSC (2024), a graph-based
+          anomaly-detection framework. The associated NIDS extension work is private,
+          incomplete, and not presented as a final method or result.
         highlights:
-          - Reproduced key experimental results from the original paper
+          - "Analysed the paper and reconstructed its main implementation components"
+          - "Audited preprocessing, graph construction, optimisation, and training behaviour"
+          - "Serves as the public foundation for ongoing private NIDS research"
         start_date: 2024
         end_date: present
         url: https://github.com/Ilya-Jahed/negsc-fraud-detection
 
-      - name: SL-GAD Reimplementation
+      - name: Anomal-E Analysis and Modular Reimplementation
         summary: >
-          Reimplementation of SL-GAD — a self-supervised, contrastive-learning-based
-          method for detecting anomalous nodes in graphs.
+          Modular implementation and study of Anomal-E, an edge-centric self-supervised
+          GNN approach for network anomaly detection.
+        highlights:
+          - "Analysed the paper and restructured the implementation into modular components"
+          - "Investigated preprocessing and target-encoding issues during the audit"
+          - "Used the project to develop a flow-level perspective on graph-based NIDS"
         start_date: 2024
-        url: https://github.com/Ilya-Jahed/sl-gad-reimplementation
-
-      - name: Anomal-E Implementation
-        summary: >
-          Implementation of Anomal-E, an edge-centric graph anomaly detection approach
-          for network traffic analysis using GNNs.
-        start_date: 2024
+        end_date: present
         url: https://github.com/Ilya-Jahed/Anomal-E-Implementation
+
+      - name: SL-GAD Reimplementation and Study
+        summary: >
+          Reimplementation and study of SL-GAD, a node-centric self-supervised graph
+          anomaly-detection method.
+        highlights:
+          - "Implemented the method as a graph anomaly-detection baseline"
+          - "Studied contrastive learning ideas relevant to the broader NIDS research direction"
+          - "Recognised the distinction between node-centric host-based detection and flow-level NIDS"
+        start_date: 2024
+        end_date: present
+        url: https://github.com/Ilya-Jahed/sl-gad-reimplementation
 
 

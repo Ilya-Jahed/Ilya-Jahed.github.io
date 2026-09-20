@@ -3,9 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  CE Student · <a href='http://www.iust.ac.ir/'>IUST</a> ·
-  <a href='https://ssl.iust.ac.ir/'>Scalable Systems Lab</a> ·
-  GNN-based Anomaly Detection
+  Computer Engineering · <a href='http://www.iust.ac.ir/'>IUST</a> ·
+  Graph Learning for Network Security · Research-in-progress
 
 profile:
   align: right
@@ -30,29 +29,27 @@ latest_posts:
   limit: 3
 ---
 
-I am a 7th-semester (Term 7 of 8) Computer Engineering undergraduate at **Iran University of Science and Technology (IUST)**, maintaining a GPA of **18.85 / 20.00**.
+I am a seventh-semester Computer Engineering undergraduate at **Iran University of Science and Technology (IUST)**, with a current GPA of **18.85 / 20.00** and an expected graduation in **2028**.
 
-I am a member of **Professor Reza Entezari-Maleki's [Scalable Systems Lab](https://ssl.iust.ac.ir/)** at IUST, where my work focuses on **GNN-based anomaly detection** for edge and distributed computing systems. My current research builds on and extends the **NegSC paper (2024)**, developing improved graph neural network approaches for **anomaly detection in Network Intrusion Detection Systems (NIDS)**. This work addresses key limitations in existing graph-based methods for representing node behavior in dynamic network environments — in particular, how to effectively capture the dual structure of network flows as both *source* and *destination* interactions.
+I work with **Professor Reza Entezari-Maleki's [Scalable Systems Lab](https://ssl.iust.ac.ir/)** on graph learning for network security. My current research project is an ongoing, private implementation and evaluation effort built around **NEGSC**, a self-supervised graph-based NIDS method. The work is not yet complete; the final model, experiments, and paper scope are still under development.
 
-I also serve as a **Teaching Assistant** for the *Data Structures* course (under Dr. Hossein Rahmani) at IUST.
+Alongside this main project, I have implemented and studied several graph anomaly-detection methods, including **SL-GAD** and **Anomal-E**, and maintain structured notes on graph machine learning and systems-security literature. These projects are part of my research training and benchmarking workflow; they should not be interpreted as published results.
+
+I also serve as a **Teaching Assistant** for *Data Structures* at IUST under Dr. Hossein Rahmani.
 
 ---
 
 ### Research Interests
 
-- **Graph Neural Networks (GNNs)** — graph anomaly detection, message-passing architectures, self-supervised and contrastive learning on graphs
-- **Network Intrusion Detection (NIDS)** — flow-level and graph-level representations of network traffic, dynamic graph modeling
-- **Edge & Distributed Computing** — fault detection, resource-efficient inference, system-level anomaly detection
-- **Applied ML & Algorithms** — reimplementation and empirical analysis of state-of-the-art methods
+- **Graph machine learning for security** — GNNs, message passing, graph representation learning, and self-supervised learning
+- **Network intrusion and anomaly detection** — flow-level representations, open-world evaluation, and label-efficient detection
+- **Edge-aware graph learning** — modelling interactions and network flows as first-class graph objects
+- **Reproducible empirical research** — careful reimplementation, auditing, ablation, and evaluation of graph-learning methods
 
 ---
 
-### What is Graph-based Anomaly Detection?
+### Current Research Status
 
-Modern networked systems generate enormous volumes of traffic and event logs. **Graph anomaly detection** treats these systems as graphs — where nodes are hosts or devices and edges are interactions — and uses graph neural networks to learn what "normal" behavior looks like. Anomalies (intrusions, failures, fraud) then stand out as nodes or subgraphs whose learned representations deviate from the norm.
+My main NEGSC-based project is currently **private and in progress**. Only part of the planned design has been implemented, so I do not currently claim a finished method, final results, publication, or public code release. Public repositories on this site document completed reimplementations, study notes, and research-training projects; the main research project will be described more fully when its implementation and evaluation are mature.
 
-My work sits at the intersection of this problem and **distributed / edge computing**: systems with constrained resources, heterogeneous nodes, and dynamic topologies — where detecting anomalies quickly and accurately is critical for security and reliability.
-
----
-
-Feel free to reach out via email or on LinkedIn/GitHub. I'm always open to research discussions, collaborations, and networking.
+Feel free to reach out via email or LinkedIn about graph learning, network security, reproducibility, or research opportunities.
